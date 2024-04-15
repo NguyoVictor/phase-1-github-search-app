@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <head>
   <meta charset='UTF-8'/>
@@ -9,25 +10,15 @@
 </head>
 <body>
   <div id='main'>
-
     <h2>GitHub Search</h2>
-
     <form id='github-form'>
-      <input id='search' type='text' name='search'>
-      <input type='submit' name='submit'/>
+      <input id='search-input' type='text' name='search'> <!-- Added id="search-input" -->
+      <input type='submit' name='submit'>
     </form>
-
     <div id='github-container'>
-      <ul id='user-list'>
-
-      </ul>
-
-      <ul id='repos-list'>
-
-      </ul>
+      <ul id='user-list'></ul>
+      <ul id='repos-list'></ul>
     </div>
-
   </div>
-
 </body>
 </html>
